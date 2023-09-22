@@ -1,0 +1,19 @@
+section{
+    margin-left: 20px;
+}
+body{
+    background-color: grey;
+}
+
+dt{
+    size: 88px;
+}
+
+dd{
+    font-style: italic;
+    size: 28px;
+}
+
+p{
+    size: 24px;
+}

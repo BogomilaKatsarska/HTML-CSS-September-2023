@@ -1,0 +1,30 @@
+main{
+    background-color: aqua;
+    width: 700px;
+    height: 730px;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+li{
+    border: 1px solid black;
+    width: 500px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+img{
+    width: 200px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+span{
+    font-weight: bold;
+
+}
+
+.text{
+    color: #3f51b5;
+}

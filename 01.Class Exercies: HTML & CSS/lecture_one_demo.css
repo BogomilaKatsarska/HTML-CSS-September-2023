@@ -1,0 +1,40 @@
+body{
+    background-color: blue;
+    color:white;
+}
+
+a{
+    color:wheat;
+}
+/* Below means: all a's that start with "http" should be in orange */
+a[href^="https://"]{
+    color: orange;
+}
+
+p{
+    color:black;
+}
+
+h1{
+    font-size: 20px;
+}
+
+ul li{
+    color:red;
+}
+
+.box{
+    background-color: white;
+}
+
+.warning{
+    color:red
+}
+
+h1.amazing{
+    font-size: 20px;
+    color: brown !important;
+}
+#header-first{
+    font-size:  120px;
+}

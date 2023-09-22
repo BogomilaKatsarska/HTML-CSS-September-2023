@@ -1,0 +1,39 @@
+body{
+    background-color: darkblue;
+}
+
+header *{
+    display: inline;
+    border-radius: 3px;
+    padding: 8px 10px;
+    vertical-align: middle;
+}
+
+header, article, footer{
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+li{
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+article{
+    display: table-cell;
+    width: 50%;
+    padding: 5px 10px;
+    border: 10px solid darkblue;
+}
+footer{
+    padding: 5px 10px;
+    border: 10px solid darkblue;
+}
+
+footer > p{
+    margin: 5px;
+
+}
