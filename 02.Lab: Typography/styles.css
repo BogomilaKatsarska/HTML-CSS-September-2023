@@ -1,0 +1,13 @@
+.site{
+    background-color: lightgray;
+    width: 66ch;
+    margin: 0 auto;
+}
+/* body{
+    line-height: 1.5;
+} */
+
+/* width: how long is our line(e.g.: consists of 66characters */
+/* line-height: the space between the rows */
+/* margin: 0 auto; centers the box in the middle of the page - orange */
+/* padding: green */
