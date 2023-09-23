@@ -1,0 +1,57 @@
+type{color: red;}
+
+#id{color: red;}
+
+descendant selector{color: red;}
+
+#id descendant{color:red;}
+
+.classname{color:red;}
+
+element.classname{color:red;}
+
+element element2.classname{color: red;}
+
+element1, element2{color:red;}
+
+*{color: red;}
+
+plate *{color: red;}
+
+element + sibling{color:red;}/*select an element that directly follows another element */
+
+element1 ~ element2{color: red;}/*select element/s that follows another element - on the same level */
+
+element1 > element2{color:red;}
+
+element1 element2:first-child{color: red;}
+
+element :only-child{color: red;}/*selects an element that are the only element inside another one */
+
+element:last-child{color:red;}
+
+element:nth-child(3){color:red;}
+
+element:nth-last-child(1){color:red;}/*starts counting from last to first element */
+
+element:first-of-type{color:red;}
+
+element:nth-of-type(odd){color:red;}
+element:nth-of-type(3){color:red;} /* selects the third element of this type */
+element:nth-of-type(2n + 3){color:red;} /* will start conting from 3: 2*0+3; 2*1+3; 2*2+3*/
+
+element1 element2:only-of-type{color: red;}
+
+element1:last-of-type, element2:last-of-type{color: red;}
+
+element1:empty{color:red;} /* Selects elements that do not contain anything */
+
+element1:not(.classname)
+
+[href]{color:red;} /* Select all elements that have "href" attribute */
+element[href]{color:red;}
+
+[href="https://softuni.bg"]{color:red}
+[href^="Sa"]{color:red;} /* Select all the elements that start with 'Sa' */
+[href$="ota"]{color:red;} /* Select all the elements that end with 'ota' */
+[href*="obb"]{color:red;} /* Select all the elements that contain 'obb' */
