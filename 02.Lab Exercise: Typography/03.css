@@ -1,0 +1,16 @@
+th, td{
+    width: 144px;
+    height: 32px;
+}
+
+th{
+    background-color: lightblue;
+    text-align: center;
+    padding: 16px;
+    border: 1px solid black;
+}
+
+td{
+    padding-left: 5px;
+    border: 1px solid black;
+}
