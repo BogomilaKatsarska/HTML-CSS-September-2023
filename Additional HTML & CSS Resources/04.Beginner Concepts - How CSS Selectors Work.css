@@ -1,0 +1,50 @@
+/* URL Resource: https://css-tricks.com/how-css-selectors-work/ */
+
+1. Selectors: Selectors are what allows you to target specific HTML elements and apply style to them.
+
+    - ID Selector
+    - Class Selector: you can add multiple classes (just separated by a space) on HTML elements
+    - Tag Selector
+    - Attribute Selector: 
+
+    [data-modal="open"] {}
+    <!-- WILL match -->
+    <div data-modal="open"></div>
+
+    <!-- WILL match -->
+    <aside class='closed' data-modal='open'></aside>
+
+    <!-- Will NOT match -->
+    <div data-modal="false">Wrong value</div>
+
+    <!-- Will NOT match -->
+    <div data-modal>No value</div>
+
+    <!-- Will NOT match -->
+    <div data-modal-open>Wrong attribute</div>
+
+    - Positional Selectors:
+    :nth-child(2) {}
+
+    - Pseudo Selectors:
+    :empty {}
+
+2. Combination of Selectors:
+  .module.news {  
+    /* Selects elements with BOTH of those classes */
+  }
+  #site-footer::after {
+    /* Adds content after an element with that ID */
+  }
+  section[data-open] {
+    /* Selects only section elements if they have this attribute */
+  }
+  .module > h2 {
+    /* Select h2 elements that are direct children of an element with that class */
+  } 
+  h2 + p {
+    /* Select p elements that are directly following an h2 element */
+  }
+  li ~ li {
+    /* Select li elements that are siblings (and following) another li element. */
+  }

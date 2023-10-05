@@ -1,0 +1,17 @@
+/* YouTube Resources: https://www.youtube.com/watch?v=HKfclpLSjME */
+1.CSS = Cascading Style Sheets 
+
+2. Ruleset / Rule 
+    h1{
+        margin-block: 2rem;     <-- declaration(multiple declarations = declaration block)
+    }
+
+3. Selector
+    h1{ 
+
+4. Property 
+        margin-block 
+5. Value 
+        2rem
+5. Statement
+        @import url("imported-styles.css");

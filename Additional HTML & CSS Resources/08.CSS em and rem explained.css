@@ -1,0 +1,11 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=_-aDOAMmDHI/ */
+- relates to font-sizes
+
+1. em: relates to its parent
+    - by default is 16px
+    - the elements are compounding if they have grandparent -> parent -> child
+    - font sizes are looking at font sizes
+    - margins, paddings are looking at their own font size for reference
+    
+2. rem: =root em
+    - looks at the grandparent em

@@ -1,0 +1,32 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=JnTPd9G6hoY */
+
+1. The most important CSS concepts:
+    - Inheritance: inherited from parent to children/grandchildren
+        usually use html{}; or body{}; <-- good itea to put the typography here
+        not all properties are inherited (like font => font:inherit;)
+
+    - Cascade:
+        we read and implement from top to bottom and apply styles
+        use Dev Tools to check when there is an issue
+    
+    - The Box Model:
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        };
+        
+        default behaviour of box-sizing: content-boxl
+
+    - Specificity:
+        element selectors, class selectors, id selectors
+
+    - Creating layouts:
+        .columns{
+            display: grid;
+            gap: 1em;
+            grid-template-coulmns: 1fr 1fr 1fr;
+        }
+    
+    - Layouts styling content:
+    

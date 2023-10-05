@@ -1,0 +1,11 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=McC4QkCvbaY */
+header :is(h1, a) {
+    color: purple;
+}
+
+is:(header, .card) p:hover{  <-- the element with the highest specificity sets the main one
+    color: red;
+}
+/* above is the same as below */
+header p:hover,
+.card p:hover{}

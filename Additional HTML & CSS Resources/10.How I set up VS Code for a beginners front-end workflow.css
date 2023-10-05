@@ -1,0 +1,23 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=aydFCQiUW44 */
+1. Emmet:
+    !
+    (p>lorem30)*3
+2. Importing css files:
+    @import "styles"; --> without the extension
+3. Inheritance:
+    html{
+        box-sizing: border-box;
+    }
+
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
+
+    body{
+        font-family: Arial, sans-serif;
+        line-height: 1.3;
+        padding: 0px;
+        background-color: darkgray;
+        color: white;
+    }
+4. Installation: live SAAS compiler

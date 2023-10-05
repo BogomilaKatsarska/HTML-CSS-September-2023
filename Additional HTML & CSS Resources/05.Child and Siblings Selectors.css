@@ -1,0 +1,14 @@
+/* URL Resource: https://css-tricks.com/child-and-sibling-selectors/ */
+1. Child and Siblings Selectors:
+    - descendant selector
+    ul li { margin: 0 0 5px 0; } --> It will select any list items that are anywhere underneath an unordered list in the markup structure. The list item could be buried three levels deep within other nested lists, and this selector will still match it.
+
+    - child combinator
+    ul > li { margin: 0 0 5px 0; } --> This means it will only select list items that are direct children of an unordered list.
+
+    - adjacent sibling combinator
+    p + p { font-size: smaller; } /* Selects all paragraphs that follow another paragraph */
+    #title + ul { margin-top: 0; } /* Selects an unordered list that directly follows the element with ID title */
+
+    - general sibling combinator(~)
+    The general sibling combinator selector is very similar to the adjacent sibling combinator selector we just looked at. The difference is that that the element being selected doesn’t need to immediately succeed the first element, but can appear anywhere after it.

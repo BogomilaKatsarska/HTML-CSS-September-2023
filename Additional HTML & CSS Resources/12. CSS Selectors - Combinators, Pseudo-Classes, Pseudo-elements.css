@@ -1,0 +1,48 @@
+/* YouTube Resources: https://www.youtube.com/watch?v=a69OMEJXaJo */
+                    PSEUDO ELEMENTS
+
+1. Element Selector
+p{}
+
+2. Class Selector
+.class{}
+.class1.class2 --> selects elements with both of those classes
+
+3. ID Selector
+#id{}
+
+4. Descendant Selector ( >)
+.direct-children p    <-- general, all the paragraphs that are in .direct-children
+.direct-children > p  <-- direct child, only direct children to .direct children
+
+5. Universal Selector (*)
+e.even-columns > * {flex: 1;}
+
+5. Before and After 
+::before
+::after
+
+6. Selection: when we select sth with our ruler 
+::selection
+
+7. Marker: changes the bullets to ul/ol
+li::marker
+
+8. h2 + p: select p elements that are directly following an h2
+9. li ~ li: select li elements that are siblings (and following) another li element
+
+                    PSEUDO CLASSES
+a:hover{}
+a:focus{}
+li:first_child{} e.g.: article > p:first_child{}
+article > p:first-of-type {}
+li:nth-child(2);
+li:nth-child(2n);  e.g.: it is going to select each second element
+li:nth-child(odd);
+p:not(.example){}  e.g.: it selects each paragraph that does not have class example
+
+                    ATTRIBUTE SELECTORS
+
+a[href="#"]{}
+a[class]{}
+a[class="link-three"]

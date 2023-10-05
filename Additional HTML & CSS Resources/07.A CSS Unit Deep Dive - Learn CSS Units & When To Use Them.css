@@ -1,0 +1,25 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=fzZTvLmmTzM/ */
+1. Relative vs Absolute
+    - relative: in, cm 
+    - absolute: rem, em, px, vh, ch
+
+    #px:  a measurement of length that is relative to the expected viewing distance
+    of the device being used;
+
+    #em: 1em = 16px by default as the default font-size is 16px. Although, if you change
+    the font-size to Xpx => 1em = Xpx
+    Good to use with paddings, margins and widths.
+
+    #rem: relative to the font size of the root element => html{} //default: 16units.
+
+    #%: relative to the parent
+
+    #vh/#vw: viewport height/width. relative to our screen
+
+    #ch: e.g.: 60ch = 60characters length per line
+    body{
+        max-width: 60ch;
+    }
+
+
+    

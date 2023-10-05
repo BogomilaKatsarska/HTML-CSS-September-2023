@@ -1,0 +1,8 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=c0kfcP_nD9E */
+1. Specificity:
+    - used for overwriting
+    - external < internal < inline STYLESHEET - because of the cascade
+
+    INLINE STYLES > IDs > Classes, attributes and pseudo-classes > elements and pseudo-elements
+
+    !important;

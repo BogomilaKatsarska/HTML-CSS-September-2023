@@ -1,0 +1,51 @@
+/* YouTube Resource: https://www.youtube.com/watch?v=d1QOiBRID2E/ */
+1. Hints:
+    - use viewport units, or other units tied to screen size
+    - use clamp() function to restrict minimum and maximum e.g. for font size
+        font-size: clamp(2rem, 8vh, 6rem); -> 2rem is min, 8vh preferred, 6rem max;
+    - letter spacing: 
+        - increase letter spacing wen you have a title with capital letters
+        letter-spacing: 0.04rem;
+        - larger, not uppercased font sized: decrease letter spacing to make the text more condensed
+        letter-spacing: -0.04rem;
+    - line length: 
+        - between 50 and 70 characters ('ch')
+        max-width: 50ch;
+        text-wrap: balance;
+    - tweak text decoration 
+        a{
+            color: yellow;
+            text-decoration-color: yellow 80%; 
+            /* opacity is 80% */
+            text-decoration-thickness: clamp(0.5 rem, 2px, 2rem);
+            text-underline-offset: 4px;
+        }
+
+        li a {
+            position:relative;
+            inset-block-start: clamp(2px, 0.2vw, 5px);
+        }
+
+        li{
+            padding-inline-start: 0.7ch;
+            margin-inline-start: -0.7ch;
+        }
+
+        The marker pseudo-selector tagrets the bullets in ol/ul
+        li::marker {
+            color: yellow;
+            content: "insert-star-emoji-here-yourself";
+            font-size: 2vw;
+        }
+
+    - use color fonts from google fonts 
+        h1{
+            font-family: 'Bungee Spice', cursive;
+            font-palette: --bungee;
+        }
+
+        @font-palette-values --bungee {
+            font-family: 'Bungee Spice';
+            override-colors: 0 red,
+            1 greeen;
+        }
