@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+body{
+    margin: 4em;
+}
+
+html{
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+header{
+    border-bottom: 0.2em solid black;
+    display: flex;
+}
+
+h1{
+    text-transform: uppercase;
+    flex-grow: 3;
+    padding: 0.5em 0;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type: none;
+    color: green;
+    text-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 1em;
+}
+
+
+.nav{
+    flex-grow: 1;
+    display: flex;
+}
+
+main > *{
+    padding: 0.4em 0;
+}

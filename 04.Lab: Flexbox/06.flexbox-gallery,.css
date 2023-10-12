@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    justify-content: center;
+    padding: 3em;
+    /* width: 100vw;  */
+    display: flex;
+}
+
+.gallery{
+    display: flex;
+    max-width: 45em;
+}
+
+.gallery ul{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 2em;
+}
+
+.gallery li{
+    flex: 1 1 200px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border: 0.4em solid black;
+    background: white;
+    padding: 2em 1em;
+    box-shadow: 
+        0 0 1em 0.2em rgba(0,0,0,0.0.4),
+        0 0 1em 0.2em rgba(0,0,0,0.0.4) inset;
+}
+
+.gallery img{
+    display: block;
+    width: 100%;
+    /* height:auto -> за да не смачкаме резолюцията на картинката */
+    height: auto;
+}
+
+.gallery::before,
+.gallery::after{
+    display: block;
+    content: '';
+    flex: 1 1 200px;
+    order: 1000;
+}

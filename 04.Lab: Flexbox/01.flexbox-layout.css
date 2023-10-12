@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+
+.task{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.main-header, .main-main, .main-aside, .main-footer{
+    border: 1px solid darkgray;
+    background-color: white;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.2);
+}
+
+.content{
+    display: flex;
+    gap: 2em;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.main-main{
+    flex: 8 1 40rem;
+}
+
+.main-aside{
+    flex: 2 1 20rem;
+}
