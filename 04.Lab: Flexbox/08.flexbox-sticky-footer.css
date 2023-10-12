@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 16px/1.5, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    font: inherit;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 1 auto;
+}
+
+header, main, footer{
+    background-color: lightgray;
+    padding: 1em 2em;
+    border: 0.1em solid black;
+}
+
+footer{
+    background-color: darkgray;
+    color: white;
+    height: 7em;
+}
+
+h1{
+    text-transform: uppercase;
+}
