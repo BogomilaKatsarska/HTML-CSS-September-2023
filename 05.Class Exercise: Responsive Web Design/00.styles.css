@@ -1,0 +1,61 @@
+@media screen and (min-width: 500px){
+    body{
+        background: lightgreen;
+    }
+}
+
+body{
+    background-color: #EEE;
+}
+
+@media (min-width: 600px){
+    body{
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width: 1050px){
+    body{
+        background-color: pink;
+    }
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background: #369;
+}
+
+@media (min-width: 600px){
+    .container{
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 1050px){
+    .container{
+        background-color: orange;
+    }
+}
+
+/* Course styling */
+
+@media (min-width: 600px){
+    body{
+        background-color: lightgreen;
+    }
+
+    .container{
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 1050px){
+    body{
+        background-color: pink;
+    }
+    .container{
+        background-color: orange;
+    }
+}
+

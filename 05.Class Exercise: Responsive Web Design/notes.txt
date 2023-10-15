@@ -1,0 +1,20 @@
+1. Media Query:
+
+
+'at rule'   'nedia type'            'media feature'
+@media      only screen     and     (max-width: 400px) {
+    ordinary css rules;
+}
+
+-   media features describe a specific characteristic of the user agent, output device, or environment
+    (e.g.: max-width, orientation:landscape/portrait, hover:hover, aspect-ratio: 8/5)
+
+-   difference between print, screen, presenting
+
+-   @import url('styles.css') screen;
+
+-   logical operators: or, and, not, only, ,(comma) - used like logical or operator
+
+- throttling - slowing down the internet connection
+
+2. Mobile First
