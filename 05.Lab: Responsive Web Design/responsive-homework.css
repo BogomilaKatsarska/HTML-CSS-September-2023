@@ -1,0 +1,41 @@
+@media all and (min-width: 600px){
+    body{
+        background: red;
+    }
+}
+/*  */
+@media screen and (min-width: 600px){
+    body{
+        background: red;
+    }
+}
+/*  */
+@media print {
+    body{
+        background: red;
+    }
+}
+/*  */
+@media (hover){
+    body{
+        background: black;
+        color: white;
+    }
+}
+/*  */
+body{
+    display: flex;
+}
+
+@media (orientation: landscape) {
+    body{
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        flex-direction: column;
+    }
+}
+/*  */

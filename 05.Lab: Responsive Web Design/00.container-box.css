@@ -1,0 +1,33 @@
+body{
+    padding: 2em;
+}
+
+.box{
+    container: box / inline-size;
+}
+
+@container box (min-width: 600px) {
+    p{
+        font-size: 2em;
+    }
+}
+
+/* ASPECT RATIO */
+
+body{
+    padding: 4em;
+}
+
+.container{
+    overflow: hidden;
+    border-radius: 0.4em;
+    aspect-ratio: 16/9;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
