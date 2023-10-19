@@ -1,0 +1,88 @@
+@import url("(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif)");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 12px/1.5 "PT Sans", sans-serif;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* max-width: initial is used to make the content always at the end of the page */
+.section-site-header .container,
+.section-top-bar .container{
+    max-width: initial;
+}
+.section-top-bar{
+    background: #D01919;
+    color: #fff; 
+}
+.section-top-bar .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+.section-top-bar .socials{
+    display: flex;
+}
+.section-top-bar .socials li,
+.section-top-bar .socials a{
+    display: block;
+}
+.section-top-bar .socials li{
+    padding: 0 0.5em;
+}
+.section-top-bar .socials a span{
+    display: none;
+}
+.section-top-bar a{
+    color: #fff; 
+}
+.section-site-header{
+    color: #fff;
+}
+.section-site-header .container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+.section-site-header .site-title{
+    display: none;
+}
+.section-site-header a{
+    color: #fff;
+}
+
+.section-coaches{
+    background: #EFEFEF;
+}
+.section-site-footer{
+    background: #D01919;
+    color: #fff;
+}
+
+.section-site-footer{
+    text-align: center;
+    padding: 1em;
+}
+
+/* img below */
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-image: url(image/fitness-main.jpg);
+    background-size: contain;
+    /* below: center by horizontal line */
+    background-position: center -22em;
+}
